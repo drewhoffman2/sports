@@ -3,12 +3,12 @@
 #include <fstream>
 #include <sstream>
 #include <iomanip>
+#include <functional>
 using namespace std;
 
 int main(){
-  /*
-  hash
-
-  
-  */
+  string a = "zubaciv01";
+  hash<string> hashc;
+  int code = hashc(a);
+  cout << code << endl;
 }
